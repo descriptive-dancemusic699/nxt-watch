@@ -3,7 +3,7 @@
 A YouTube-inspired full-featured video streaming SPA built with React.js.
 
 ## 🔗 Live Demo
-[https://nxt-watch.vercel.app](https://nxt-watch.vercel.app)
+[https://hj-nxt-watch.vercel.app/](https://hj-nxt-watch.vercel.app/)
 
 ## ✨ Features
 
@@ -33,7 +33,7 @@ A YouTube-inspired full-featured video streaming SPA built with React.js.
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/nxt-watch.git
+git clone https://github.com/hrutik-codes/nxt-watch
 
 # Install dependencies
 cd nxt-watch
