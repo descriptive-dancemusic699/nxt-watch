@@ -70,7 +70,32 @@ src/
 │   └── ProtectedRoute/
 ├── context/
 │   └── NxtWatchContext.js
-├── App.js
-├── index.js
+├── App.jsx
+├── index.jsx
 └── index.css
 ```
+## 📸 Screenshots
+
+### Login
+![Login](./public/screenshots/nxt-watch-login.jpg)
+
+### Home — Light Theme
+![Home Light](./public/screenshots/nxt-watch-light-home.jpg)
+
+### Home — Dark Theme
+![Home Dark](./public/screenshots/nxt-watch-dark-home.jpg)
+
+### Real Time Search
+![Real Time Search](./public/screenshots/nxt-watch-search.jpg)
+
+### Video Details
+![Video Details](./public/screenshots/nxt-watch-video-details.jpg)
+
+### Trending
+![Trending](./public/screenshots/nxt-watch-trending.jpg)
+
+### Gaming
+![Gaming](./public/screenshots/nxt-watch-gaming.jpg)
+
+### Saved Videos
+![Saved Videos](./public/screenshots/nxt-watch-saved-videos.jpg)
